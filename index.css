@@ -1,0 +1,16 @@
+body{
+    background-image: url('amog.jfif');
+}
+
+
+
+.scores{
+    background-color: limegreen;
+    color: white;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    /* life: none */
+
+}
+.placeholder{
+    color: limegreen;
+}
