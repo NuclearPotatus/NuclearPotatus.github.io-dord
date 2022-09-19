@@ -28,16 +28,13 @@ function game(playerChoose) {
                 switch (playerChoose) {
                     case 'r':
                         document.getElementById('cout').innerHTML = 'Computer chose rock. DRAW'
-                        document.body.style.background = "linear-gradient(90deg, #ff0099, #9900ff);"
                         break;
                     case 's':
                         document.getElementById('cout').innerHTML = 'Computer chose rock. YOU LOST'
-                        document.body.style.background = "linear-gradient(90deg, #ff0099, #9900ff);"
                         computerscore++;
                         break;
                     case 'p':
                         document.getElementById('cout').innerHTML = 'Computer chose rock. YOU WIN'
-                        document.body.style.background = "linear-gradient(90deg, #ff0099, #9900ff);"
                         playerscore++;
                         break;
                     default:
@@ -48,16 +45,13 @@ function game(playerChoose) {
                 switch (playerChoose) {
                     case 'r':
                         document.getElementById('cout').innerHTML = 'Computer chose paper. YOU LOST'
-                        document.body.style.background = "linear-gradient(90deg, #ff0099, #9900ff);"
                         computerscore++;
                         break;
                     case 'p':
                         document.getElementById('cout').innerHTML = 'Computer chose paper. DRAW'
-                        document.body.style.background = "linear-gradient(90deg, #ff0099, #9900ff);"
                         break;
                     case 's':
                         document.getElementById('cout').innerHTML = 'Computer chose paper. YOU WIN'
-                        document.body.style.background = "linear-gradient(90deg, #ff0099, #9900ff);"
                         playerscore++;
                         break;
                     default:
@@ -68,17 +62,14 @@ function game(playerChoose) {
                 switch (playerChoose) {
                     case 'r':
                         document.getElementById('cout').innerHTML = 'Computer chose scissors. YOU WIN'
-                        document.body.style.background = "linear-gradient(90deg, #ff0099, #9900ff);"
                         playerscore++;                
                         break;
                     case 'p':
                         document.getElementById('cout').innerHTML = 'Computer chose scissors. YOU LOST'
-                        document.body.style.background = "linear-gradient(90deg, #ff0099, #9900ff);"
                         computerscore++;
                         break;
                     case 's':
                         document.getElementById('cout').innerHTML = 'Computer chose scissors. DRAW'
-                        document.body.style.background = "linear-gradient(90deg, #ff0099, #9900ff);"
                         break;
                     default:
                         break;
@@ -93,5 +84,6 @@ function game(playerChoose) {
 };
 
 
-//this is where i lose the will to continue. if you wish to contact the author of this code, dont
-//he was to much on his mind right now
+// this is where i lose the will to continue. if you wish to contact the author of this code, dont
+// he *has* to much on his mind right now
+// fixed a spelling mistake for you :)
