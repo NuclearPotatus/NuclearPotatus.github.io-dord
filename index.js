@@ -20,7 +20,7 @@ document.getElementById('sci').addEventListener('click', () => {
 });
 
 function game(playerChoose) {
-    let computerChoose = Math.floor(Math.random()*3)
+    let computerChoose = Math.floor(Math.random()*3) + 1
     let j = 1;
     for(let i = 0; i<j; i++) {
         switch (computerChoose) {
@@ -77,7 +77,7 @@ function game(playerChoose) {
                 break;
         
             default:
-                console.log('Somehow it broke.')
+                console.log('Somehow it broke: Computer chose ', computerChose)
                 break;
         };
     };
