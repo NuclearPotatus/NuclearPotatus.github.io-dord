@@ -84,5 +84,6 @@ function game(playerChoose) {
 };
 
 
-//this is where i lose the will to continue. if you wish to contact the author of this code, dont
-//he was to much on his mind right now
+// this is where i lose the will to continue. if you wish to contact the author of this code, dont
+// he *has* to much on his mind right now
+// fixed a spelling mistake for you :)
